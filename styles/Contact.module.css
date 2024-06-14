@@ -1,0 +1,67 @@
+/* Contact.module.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    background: url('/backgroundImage.png') no-repeat center center fixed;
+    align-items: center;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .form {
+    background: rgba(60, 37, 2, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .input, .textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+  }
+  
+  .textarea {
+    height: 100px;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #005bb5;
+    transform: scale(1.05);
+  }
+  
+  .button:active {
+    background-color: #003e7d;
+  }
+  
+  .h1 {
+    color: #ebeeab;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .successMessage {
+    font-size: 1.2em;
+    color: green;
+  }
+  

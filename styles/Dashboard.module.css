@@ -1,0 +1,53 @@
+/* Dashboard.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.9);
+  }
+  
+  .balance {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .graphs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .chartContainer {
+    background: #1f2229;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .explanation {
+    background: #1f2229;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .transactions {
+    margin-top: 20px;
+  }
+  
+  .transactions table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transactions th, .transactions td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .transactions th {
+    background: #1f2229;
+  }
+  
